@@ -1,0 +1,527 @@
+/* Example CSS
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.active-tab {
+  background-color: #ccc;
+}
+
+.contents {
+  margin-top: 20px;
+}
+
+.content {
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+
+/* //////stopwatch */
+
+/* .btn0{
+  height: 50px;
+  width:120px ;
+} */ 
+
+
+
+/*////////////////////////////////////////////////////////////// loginpage */
+
+/* body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  background: #007BFF;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+div.entries {
+  margin-top: 2rem;
+  width: 300px;
+}
+
+div.entries > div {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+div.entries p {
+  margin: 0.5rem 0;
+  color: #555;
+} */
+
+
+/* 
+quizzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+/* styles.css */
+/* body {
+  background-color: #f0f4f8;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.option {
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.option-btn.checked {
+  background: #007bff;
+  color: #fff;
+}
+
+.option-btn:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+#next-button, .result-button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#next-button:hover, .result-button:hover {
+  background: #218838;
+}
+
+.result-container {
+  font-size: 18px;
+}
+
+.result-container div {
+  margin-bottom: 20px;
+}
+
+.result-button {
+  margin-top: 20px;
+} */
+
+
+
+
+/* /////////////////////searchtodoooooooooooooooooooooooooooooooooooooooooooooooo */
+/* *{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  height: 100vh;
+  width: 100vw;
+  border: solid black 2px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+ 
+}
+.main{
+  border: solid black 0px;
+  height: 500px;
+  width: 800px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+ 
+}
+.datepicker{
+  height: 30px;
+  width: 200px;
+ margin-left: 5px;
+  margin-top: 20px;
+  text-indent: 20px;
+  
+ 
+ color: black;
+  border:none;
+  outline-color: green;
+}
+.submain1{
+  height: 30px;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+  text-indent: 20px;
+  
+ 
+ color: black;
+  border:none;
+  outline-color: green;
+  
+}
+.submain2{
+  height: 30px;
+  width: 150px;
+  margin-left: 30px;
+  border-radius: 10px;
+  text-indent: 20px;
+}
+.btnup{
+  height: 32px;
+  width: 70px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  border: none;
+
+  background-color: green;
+  
+}
+.incbtn{
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.decbtn{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.ulist{
+  margin-left: 50px;
+}
+.names{
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 10px;
+
+}
+.edit{
+  height: 30px;
+  width: 50px;
+  margin-left: 5px;
+  background-color: green;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 5px;
+  border-radius: 5px;
+  
+}
+.delete{
+  height: 30px;
+  width: 55px;
+  margin-left: 5px;
+  background-color: red;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.complete{
+  height: 30px;
+  width: 75px;
+  margin-left: 5px;
+  background-color:pink;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 5px;
+  border-radius: 5px;
+} */
+
+/* todogptttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  padding: 20px;
+  background-color: #e0f7fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  max-width: 600px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #00796b;
+}
+
+.main1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submain1, .submain2 {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #b2dfdb;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submain1:focus, .submain2:focus {
+  border-color: #00796b;
+  outline: none;
+}
+
+.btnup {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #00796b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnup:hover {
+  background-color: #004d40;
+}
+
+.ulist {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.names {
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e0f2f1;
+  border: 1px solid #b2dfdb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.edit, .delete, .complete {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #ffb300;
+  color: #fff;
+}
+
+.edit:hover {
+  background-color: #ffa000;
+}
+
+.delete {
+  background-color: #e53935;
+  color: #fff;
+}
+
+.delete:hover {
+  background-color: #d32f2f;
+}
+
+.complete {
+  background-color: #43a047;
+  color: #fff;
+}
+
+.complete:hover {
+  background-color: #388e3c;
+}
+
+.incbtn, .decbtn {
+  padding: 5px 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0288d1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.incbtn:hover, .decbtn:hover {
+  background-color: #0277bd;
+}
+
+.datepicker-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #b2dfdb;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.datepicker {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #b2dfdb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button:focus, input:focus {
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .main {
+      margin: 20px;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  .submain1, .submain2, .btnup {
+      font-size: 0.875rem;
+  }
+
+  .names {
+      font-size: 0.875rem;
+  }
+
+  .edit, .delete, .complete {
+      font-size: 0.75rem;
+  }
+
+  .datepicker-container {
+      bottom: 10px;
+      right: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
